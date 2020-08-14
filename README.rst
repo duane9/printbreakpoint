@@ -27,7 +27,7 @@ Prints
 
 ::
 
-    pb | some_file.py:3 in some_function()
+    pb | some_file.py:3 in some_function
 
 Any data you pass to the breakpoint() will be added to the output.
 
