@@ -1,16 +1,16 @@
 import setuptools
 
-VERSION = '0.9.9'
+VERSION = '0.9.1'
 
 LONG_DESCRIPTION = open('README.rst').read()
 
 CLASSIFIERS = [
     'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
-    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
 ]
 
-KEYWORDS = 'debugging pdb breakpoint print'
+KEYWORDS = 'breakpoint debugging pdb print'
 
 setuptools.setup(name='printbreakpoint_duane9',
                  version=VERSION,
@@ -19,7 +19,8 @@ setuptools.setup(name='printbreakpoint_duane9',
                  author='Duane Hilton',
                  author_email='duane9@gmail.com',
                  maintainer='Duane Hilton',
-                 download_url='https://test.pypi.org/project/pd-duane9/0.9/',
+                 url='https://github.com/duane9/printbreakpoint',
+                 download_url='http://pypi.python.org/pypi/printbreakpoint/',
                  license='MIT',
                  packages=setuptools.find_packages(),
                  classifiers=CLASSIFIERS,
