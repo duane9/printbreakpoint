@@ -36,3 +36,13 @@ continue using pdb.
 ::
 
     export PYTHONBREAKPOINT=
+    
+You can also use pb without a breakpoint():
+
+::
+
+    from printbreakpoint import pb
+    
+    def some_function(a):
+        pb()
+        return a
