@@ -10,7 +10,7 @@ CLASSIFIERS = [
     'Programming Language :: Python :: 3.9',
 ]
 
-KEYWORDS = 'breakpoint debugging pdb print'
+KEYWORDS = 'print breakpoint debugging pdb'
 
 setuptools.setup(name='printbreakpoint',
                  version=VERSION,
@@ -19,8 +19,8 @@ setuptools.setup(name='printbreakpoint',
                  author='Duane Hilton',
                  author_email='duane9@gmail.com',
                  maintainer='Duane Hilton',
-                 url='https://github.com/duane9/printbreakpoint/',
-                 download_url='http://pypi.python.org/pypi/printbreakpoint/',
+                 url='https://pypi.org/project/printbreakpoint/',
+                 download_url='https://pypi.org/project/printbreakpoint/',
                  license='MIT',
                  packages=setuptools.find_packages(),
                  classifiers=CLASSIFIERS,
