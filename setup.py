@@ -1,20 +1,19 @@
 import setuptools
 
+VERSION = '0.9.9'
+
 LONG_DESCRIPTION = open('README.rst').read()
 
 CLASSIFIERS = [
-    'Development Status :: 5 - Production/Stable',
-    'Intended Audience :: Developers',
-    'Natural Language :: English',
-    'Operating System :: OS Independent',
-    'Programming Language :: Python',
-    'Topic :: Software Development :: Libraries :: Python Modules'
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.8',
 ]
 
 KEYWORDS = 'debugging pdb breakpoint print'
 
 setuptools.setup(name='printbreakpoint_duane9',
-                 version='0.9.9',
+                 version=VERSION,
                  description='Print breakpoint',
                  long_description=LONG_DESCRIPTION,
                  author='Duane Hilton',
