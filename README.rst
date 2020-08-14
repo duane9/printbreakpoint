@@ -1,7 +1,7 @@
 Print breakpoint
 ============================
 
-The easiest way to install is via pip:
+Install is via pip:
 
 ::
 
