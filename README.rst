@@ -16,7 +16,7 @@ Update the PYTHONBREAKPOINT environment variable (available starting in Python
 
 Now when you add a breakpoint() to your code, it will show the output from pb.
 
-::
+.. code:: python
 
     def some_function(a):
         breakpoint()
