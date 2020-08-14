@@ -1,33 +1,28 @@
-#!/usr/bin/env python
-from distutils.core import setup
+import setuptools
 
-LONG_DESCRIPTION = open('README.md').read()
+LONG_DESCRIPTION = open('README.rst').read()
 
 CLASSIFIERS = [
     'Development Status :: 5 - Production/Stable',
     'Intended Audience :: Developers',
-    'License :: MIT License',
     'Natural Language :: English',
     'Operating System :: OS Independent',
     'Programming Language :: Python',
     'Topic :: Software Development :: Libraries :: Python Modules'
 ]
 
-KEYWORDS = 'dbugging pdb breakpoint print'
+KEYWORDS = 'debugging pdb breakpoint print'
 
-setup(name='pd',
-      version='0.9',
-      description='Print debugging with Python 3 breakpoint.',
-      long_description=LONG_DESCRIPTION,
-      long_description_content_type='text/md',
-      author='Duane Hilton',
-      author_email='duane9@gmail.com',
-      maintainer='Duane Hilton',
-      download_url='http://pypi.python.org/pypi/pd/',
-      packages=['pd'],
-      package_dir={'pd': 'pd'},
-      platforms=['Platform Independent'],
-      license='MIT',
-      classifiers=CLASSIFIERS,
-      python_requires='>=3.7',
-      keywords=KEYWORDS)
+setuptools.setup(name='printbreakpoint_duane9',
+                 version='0.9.9',
+                 description='Print breakpoint',
+                 long_description=LONG_DESCRIPTION,
+                 author='Duane Hilton',
+                 author_email='duane9@gmail.com',
+                 maintainer='Duane Hilton',
+                 download_url='https://test.pypi.org/project/pd-duane9/0.9/',
+                 license='MIT',
+                 packages=setuptools.find_packages(),
+                 classifiers=CLASSIFIERS,
+                 python_requires='>=3.7',
+                 keywords=KEYWORDS)

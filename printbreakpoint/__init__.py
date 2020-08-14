@@ -2,8 +2,8 @@ import inspect
 import sys
 
 
-def pd(*args):
-    """ Print debugging. """
+def pb(*args):
+    """ Print breakpoint """
     callerframerecord = inspect.stack()[1]
     frame = callerframerecord[0]
     info = inspect.getframeinfo(frame)
@@ -11,6 +11,5 @@ def pd(*args):
     line = info.lineno
     fn = info.function
     divider = '|' if args else ''
-    meta = f'\033[92mpd | {filename}:{line} in {fn}() {divider}'
-    args += ('\033[00m', )
+    meta = f'\033[92mpb\033[00m | {filename}:{line} in {fn}() {divider}'
     print(meta, *args, file=sys.stderr)
