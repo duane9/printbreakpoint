@@ -1,7 +1,7 @@
 Print breakpoint
 ============================
 
-Install is via pip:
+Install via pip:
 
 ::
 
