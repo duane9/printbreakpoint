@@ -14,8 +14,7 @@ Update the PYTHONBREAKPOINT environment variable (available starting in Python
 
     export PYTHONBREAKPOINT=printbreakpoint.pb
 
-Now when you add a breakpoint() to your code, it will show the output from pb
-when you run your code.
+Now when you add a breakpoint() to your code, it will show the output from pb.
 
 ::
 
