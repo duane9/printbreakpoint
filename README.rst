@@ -20,9 +20,7 @@ when you run your code.
 ::
 
     def some_function(a):
-
         breakpoint()
-
         return a
 
 Prints
