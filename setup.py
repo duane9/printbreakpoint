@@ -12,7 +12,7 @@ CLASSIFIERS = [
 
 KEYWORDS = 'breakpoint debugging pdb print'
 
-setuptools.setup(name='printbreakpoint_duane9',
+setuptools.setup(name='printbreakpoint',
                  version=VERSION,
                  description='Print breakpoint',
                  long_description=LONG_DESCRIPTION,
