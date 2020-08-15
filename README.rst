@@ -19,15 +19,15 @@ Now when you add a breakpoint() to your code, it will show the output from pb.
 
 .. code:: python
 
-    def reverse_str(text):
+    def some_function(a):
         breakpoint()
-        return text[::-1]
+        return a
 
 Prints
 
 ::
 
-    pb | some_file.py:3 in reverse_str
+    pb | some_file.py:3 in some_function
 
 Any data you pass to the breakpoint() will be added to the output.
 
