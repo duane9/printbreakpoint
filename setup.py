@@ -1,6 +1,6 @@
 import setuptools
 
-VERSION = '0.9.2'
+VERSION = '0.9.3'
 
 LONG_DESCRIPTION = open('README.rst').read()
 
@@ -12,7 +12,7 @@ CLASSIFIERS = [
 
 KEYWORDS = 'print breakpoint debugging pdb'
 
-DESCRIPTION = 'Use breakpoint() to print out filename, line number, and module'
+DESCRIPTION = 'Use breakpoint() to print out filename, line number, and data. For Python 3.7+'
 
 setuptools.setup(name='printbreakpoint',
                  version=VERSION,
