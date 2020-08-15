@@ -1,4 +1,5 @@
-Print breakpoint
+============================
+PrintBreakpoint
 ============================
 
 Install with pip:
@@ -18,15 +19,15 @@ Now when you add a breakpoint() to your code, it will show the output from pb.
 
 .. code:: python
 
-    def some_function(a):
+    def reverse_str(text):
         breakpoint()
-        return a
+        return text[::-1]
 
 Prints
 
 ::
 
-    pb | some_file.py:3 in some_function
+    pb | some_file.py:3 in reverse_str
 
 Any data you pass to the breakpoint() will be added to the output.
 
