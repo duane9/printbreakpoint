@@ -1,6 +1,6 @@
-============================
-PrintBreakpoint
-============================
+**PrintBreakpoint**
+
+Use breakpoint() to print out filename, line number, and data. For Python 3.7+
 
 Install with pip:
 
