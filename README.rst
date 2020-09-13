@@ -1,21 +1,22 @@
 **PrintBreakpoint**
 
-Use breakpoint() to print out filename, line number, and data. For Python 3.7+
+Use ``breakpoint()`` to print out filename, line number, and data. For Python 3.7+
 
-Install with pip:
+Install ``printbreakpoint`` with pip.
 
 ::
 
     pip install printbreakpoint
 
-Update the PYTHONBREAKPOINT environment variable (available starting in Python
-3.7):
+Update the ``PYTHONBREAKPOINT`` environment variable (available starting in Python
+3.7).
 
 ::
 
     export PYTHONBREAKPOINT=printbreakpoint.pb
 
-Now when you add a breakpoint() to your code, it will show the output from pb.
+Now when you add ``breakpoint()`` to your code, it will show the output from
+``printbreakpoint``.
 
 .. code:: python
 
@@ -29,10 +30,10 @@ Prints
 
     pb | some_file.py:3 in some_function
 
-Any data you pass to the breakpoint() will be added to the output.
+Any data you pass to the ``breakpoint()`` will be added to the output.
 
 Change the environment variable back to the default when you're ready to
-continue using pdb.
+continue using ``pdb``.
 
 ::
 
