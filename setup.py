@@ -13,7 +13,7 @@ CLASSIFIERS = [
 
 KEYWORDS = 'print breakpoint debugging pdb'
 
-DESCRIPTION = 'Use breakpoint() to print out filename, line number, and data. For Python 3.7+'
+DESCRIPTION = 'Use breakpoint() to print out filename, line number, and data.'
 
 setuptools.setup(name='printbreakpoint',
                  version=VERSION,
