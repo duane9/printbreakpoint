@@ -38,4 +38,10 @@ continue using ``pdb``.
 ::
 
     export PYTHONBREAKPOINT=
-    
+
+You can also use ``printbreakpoint`` directly.
+
+::
+
+    import printbreakpoint; printbreakpoint.pb()
+
