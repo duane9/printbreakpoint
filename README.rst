@@ -1,6 +1,6 @@
 **PrintBreakpoint**
 
-Use ``breakpoint()`` to print out filename, line number, and data. For Python 3.7+
+Use ``breakpoint()`` to print out filename, line number, and data.
 
 Install ``printbreakpoint`` with pip.
 
@@ -38,4 +38,4 @@ continue using ``pdb``.
 ::
 
     export PYTHONBREAKPOINT=
-    
+
